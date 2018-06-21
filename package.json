@@ -2,7 +2,7 @@
   "name": "store",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://schamblee.github.io/online-store/",
+  "homepage": "https://5b2bec598df894160eb8de55--distracted-nobel-fdd904.netlify.com/",
   "dependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
