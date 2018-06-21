@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+}
+
+header {
+  background-color: #0f121d;
+  color: white;
+  margin-bottom: 40px;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 20px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #252525;
+}
+ 
+header h1 {
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+header p {
+  margin-top: 0.5em;
+}
+
+.card {
+  border: 1px solid #E5E5E5;
+  margin-bottom: 20px;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card-content p {
+  margin: 0.5em 0;
+}
+
+.row {
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+footer {
+  margin-left: -8.5px;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  background-color: #0f121d;
+  color: #fff;
+  text-align: center;
+}
+
+.github-link, .linkedin-link {
+  width: 20px;
+  color: #fff;
+  margin-left: 10px
+}
+
+/* Clearfix */
+.row::before,
+.row::after {
+  display: table;
+  content: '';
+}
+
+.row::after {
+  clear: both;
+}
+
+.col-3, .col-4, .col-6, .col-12 {
+  float: left;
+  padding-left: 1.04166666%;
+  padding-right: 1.04166666%;
+}
+
+/* Mobile defaults */
+.col-3, .col-4, .col-6, .col-12 {
+  width: 100%;
+}
+
+
+/* Non-mobile, grid */
+@media only screen and (min-width: 640px) {
+  /* 3 columns, 3/12 in % */
+  .col-3 {
+    width: 25%;
+  }
+
+  /* 4 columns, 4/12 in % */
+  .col-4 {
+    width: 33.333333%;
+  }
+
+  /* 6 columns, 6/12 in % */
+  .col-6 {
+    width: 50%;
+  }
+
+  /* 12 columns, 12/12 in % */
+  .col-12 {
+    width: 100%;
+  }
+}
